@@ -1,2 +1,2 @@
-# Entrust
+# EntrustExtension
 Add functions role(), permission(), ability()
