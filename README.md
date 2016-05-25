@@ -4,8 +4,18 @@
 
 Require this package with Composer
 
-```bash
-composer require "ftl/tbe:~1.0-dev"
+```json
+    "require": {
+        ...
+        "ftl/tbe": "^1.0-dev"
+    },
+    "repositories": [
+        ...
+        {
+            "type": "vcs",
+            "url": "https://github.com/FullyTemplatedLaravel/TwigBridgeExtentions"
+        }
+    ]
 ```
 
 ## Quick Start
