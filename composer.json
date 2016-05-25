@@ -1,0 +1,18 @@
+{
+    "name": "ftl/tbe",
+    "homepage": "https://github.com/FullyTemplatedLaravel/TwigBridgeExtentions",
+	"autoload": {
+		"psr-4": {
+			"FTL\\TBE\\": "src"
+		}
+	},
+	"require": {
+        "twig/twig": " ~1.15|~2.0",
+        "laravel/framework": "^5.1"
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-master": "1.0.x-dev"
+		}
+	}
+}
