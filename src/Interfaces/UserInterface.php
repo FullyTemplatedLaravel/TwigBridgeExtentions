@@ -1,6 +1,6 @@
 <?php
 
-namespace FTL\TBE;
+namespace FTL\TBE\Interfaces;
 
 
 interface UserInterface {

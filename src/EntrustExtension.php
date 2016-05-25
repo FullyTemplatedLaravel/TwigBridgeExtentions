@@ -1,9 +1,9 @@
 <?php
 
-namespace FTL\TBE\EntrustExtension;
+namespace FTL\TBE;
 
 
-use FTL\TBE\UserInterface;
+use FTL\TBE\Interfaces\UserInterface;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Input;
 
