@@ -1,6 +1,7 @@
 {
     "name": "ftl/tbe",
     "homepage": "https://github.com/FullyTemplatedLaravel/TwigBridgeExtentions",
+	"keywords": ["laravel","twig","twigbridge","entrust"],
 	"autoload": {
 		"psr-4": {
 			"FTL\\TBE\\": "src"
