@@ -19,11 +19,11 @@ class NotificationsExtension extends \Twig_Extension
 	public function getFunctions()
 	{
 		return [
-			new \Twig_SimpleFunction('n_info', function () { return Notifications::byType('info')->get(); }),
-			new \Twig_SimpleFunction('n_success', function () { return Notifications::byType('success')->get(); }),
-			new \Twig_SimpleFunction('n_warning', function () { return Notifications::byType('warning')->get(); }),
-			new \Twig_SimpleFunction('n_danger', function () { return Notifications::byType('danger')->get(); }),
-			new \Twig_SimpleFunction('n_error', function () { return Notifications::byType('error')->get(); }),
+			new \Twig_SimpleFunction('n_info', function () { return \Notifications::byType('info')->get(); }),
+			new \Twig_SimpleFunction('n_success', function () { return \Notifications::byType('success')->get(); }),
+			new \Twig_SimpleFunction('n_warning', function () { return \Notifications::byType('warning')->get(); }),
+			new \Twig_SimpleFunction('n_danger', function () { return \Notifications::byType('danger')->get(); }),
+			new \Twig_SimpleFunction('n_error', function () { return \Notifications::byType('error')->get(); }),
 		];
 	}
 }
