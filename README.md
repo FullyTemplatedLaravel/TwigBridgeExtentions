@@ -36,3 +36,9 @@ Open up config/twigbridge.php and find the enabled key at extensions, and add 'F
 
 Add functions role(), permission(), ability()
 
+### NotificationsExtension
+
+Add functions n_info(), n_success(), n_warning(), n_danger(), n_error()
+NotificationsExtension based on [Laravel Convenient System Notifications](https://github.com/gaaarfild/laravel-notifications)
+
+
