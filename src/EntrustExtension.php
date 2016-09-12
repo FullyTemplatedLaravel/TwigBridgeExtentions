@@ -61,7 +61,7 @@ class EntrustExtension extends \Twig_Extension
 
 	protected static function usesEntrustUserTrait($user)
 	{
-		return in_array('\\Zizaco\\Entrust\\Traits\\EntrustUserTrait', self::class_uses_deep($user));
+		return in_array('Zizaco\\Entrust\\Traits\\EntrustUserTrait', self::class_uses_deep($user));
 	}
 
 	/**
