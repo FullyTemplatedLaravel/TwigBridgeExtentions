@@ -9,7 +9,7 @@
 	},
 	"require": {
         "twig/twig": " ~1.15|~2.0",
-        "laravel/framework": "^5.1"
+        "laravel/framework": "*"
 	},
 	"extra": {
 		"branch-alias": {
