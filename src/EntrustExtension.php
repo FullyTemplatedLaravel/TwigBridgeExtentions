@@ -5,7 +5,7 @@ namespace FTL\TBE;
 
 use FTL\TBE\Interfaces\UserInterface;
 use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\Input;
+use Illuminate\Support\Facades\Request;
 
 class EntrustExtension extends \Twig_Extension
 {
@@ -52,7 +52,7 @@ class EntrustExtension extends \Twig_Extension
 		if (Auth::guest()) {
 			return false;
 		}
-		$user = Input::user();
+		$user = Request::user();
 		if (!self::usesEntrustUserTrait($user)) {
 			return false;
 		}
